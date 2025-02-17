@@ -72,5 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-*.uasset
-*.umap
+
+# Unreal Engine Content Exclusions (Do NOT commit large assets)
+Content/ParagonGrux/
+Content/ParagonKwang/
+Content/MedievalDungeon/
